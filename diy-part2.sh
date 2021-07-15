@@ -12,3 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.254/g' package/base-files/files/bin/config_generate
+
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/uci-app-poweroff

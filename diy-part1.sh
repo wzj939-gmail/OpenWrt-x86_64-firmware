@@ -18,4 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo git clone https://github.com/esirplayground/luci-app-poweroff.git openwrt/uci-app-poweroff
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/uci-app-poweroff
